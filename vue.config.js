@@ -3,7 +3,7 @@ const path = require('path');
 const isProd = process.env.NODE_ENV === 'production';
 
 const CONSTANTS = {
-  REST_ENDPOINT: JSON.stringify('http://35.239.144.81/wp-json/wp/v2'),
+  REST_ENDPOINT: JSON.stringify('http://35.192.54.42/wp-json/wp/v2'),
   POSTS_PER_PAGE: JSON.stringify(9),
   GA_TRACKING_ID: JSON.stringify(isProd ? 'UA-111438908-1' : 'XXX'),
   REQUEST_CACHE_MAX: JSON.stringify(150)
